@@ -1,0 +1,126 @@
+[
+    {
+        "pid": 1,
+        "nombre": "Box 001",
+        "descripcion": "Descripcion y detalle test de la Box 001",
+        "imagen": "../assets/img/imgtest001.png",
+        "stock": 15,
+        "precio": 3900.0,
+        "categoria": 1,
+        "peso": 300.0,
+        "medidas": "15 x 15 x 10 cm",
+        "score": 4
+    },
+    {
+        "pid": 2,
+        "nombre": "Box 002",
+        "descripcion": "Descripcion y detalle test de la Box 002",
+        "imagen": "../assets/img/imgtest002.png",
+        "stock": 10,
+        "precio": 5900.0,
+        "categoria": 2,
+        "peso": 250.0,
+        "medidas": "30 x 15 x 10 cm",
+        "score": 5
+    },
+    {
+        "pid": 3,
+        "nombre": "Box 003",
+        "descripcion": "Descripcion y detalle test de la Box 003",
+        "imagen": "../assets/img/imgtest003.png",
+        "stock": 5,
+        "precio": 13000.0,
+        "categoria": 1,
+        "peso": 599.9,
+        "medidas": "150 x 150 x 100 cm",
+        "score": 2
+    },
+    {
+        "pid": 4,
+        "nombre": "Box 004",
+        "descripcion": "Descripcion y detalle test de la Box 004",
+        "imagen": "../assets/img/imgtest004.png",
+        "stock": 9,
+        "precio": 3900.0,
+        "categoria": 3,
+        "peso": 1200.0,
+        "medidas": "9 x 5 x 10 cm",
+        "score": 5
+    },
+    {
+        "pid": 5,
+        "nombre": "Box 005",
+        "descripcion": "Descripcion y detalle test de la Box 005",
+        "imagen": "../assets/img/imgtest005.png",
+        "stock": 300,
+        "precio": 3900.0,
+        "categoria": 3,
+        "peso": 400.0,
+        "medidas": "44 x 44 x 44 cm",
+        "score": 5
+    },
+    {
+        "pid": 6,
+        "nombre": "Box 006",
+        "descripcion": "Descripcion y detalle test de la Box 006",
+        "imagen": "../assets/img/imgtest006.png",
+        "stock": 133,
+        "precio": 3900.0,
+        "categoria": 2,
+        "peso": 500.0,
+        "medidas": "15 x 15 x 12 cm",
+        "score": 5
+    },
+    {
+        "pid": 7,
+        "nombre": "Box 007",
+        "descripcion": "Descripcion y detalle test de la Box 007",
+        "imagen": "../assets/img/imgtest007.png",
+        "stock": 150,
+        "precio": 3900.0,
+        "categoria": 1,
+        "peso": 600.0,
+        "medidas": "40 x 30 x 10 cm",
+        "score": 2
+    },
+    {
+        "pid": 8,
+        "nombre": "Box 008",
+        "descripcion": "Descripcion y detalle test de la Box 008",
+        "imagen": "../assets/img/imgtest008.png",
+        "stock": 7,
+        "precio": 3900.0,
+        "categoria": 1,
+        "peso": 3122.0,
+        "medidas": "15 x 30 x 10 cm",
+        "score": 3
+    },
+    {
+        "pid": 9,
+        "nombre": "Box 009",
+        "descripcion": "Descripcion y detalle test de la Box 009",
+        "imagen": "../assets/img/imgtest009.png",
+        "stock": 9,
+        "precio": 3900.0,
+        "categoria": 2,
+        "peso": 300.5,
+        "medidas": "15 x 10 x 10 cm",
+        "score": 4
+    },
+    {
+        "pid": 10,
+        "nombre": "Box 010",
+        "descripcion": "Descripcion y detalle test de la Box 010",
+        "imagen": "../assets/img/imgtest010.png",
+        "stock": 15,
+        "precio": 3900.0,
+        "categoria": 3,
+        "peso": 800.0,
+        "medidas": "12 x 12 x 10 cm",
+        "score": 1
+    }
+]
+
+
+
+        

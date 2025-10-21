@@ -1,0 +1,80 @@
+/* Mobile-first custom styles (complementan Bootstrap) */
+
+:root{
+    --max-content-width: 1140px;
+}
+
+body{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: #212529;
+    background-color: #fff;
+}
+
+h1{ font-size: 1.5rem; }
+
+/* Make images responsive by default if not using .img-fluid */
+img{ max-width:100%; height:auto; display:block; }
+
+/* Utility container cap when pages render outside Bootstrap container */
+.site-container{ max-width:var(--max-content-width); margin-left:auto; margin-right:auto; padding:0 1rem; }
+
+/* Navigation badges and counters */
+.nav-item{ position: relative; }
+
+#countproductcart, #countproductwishlist{
+    background-color: #6c757d;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0 6px;
+    font-size: .7rem;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    min-width: 18px;
+    height: 18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+#countproductcart:empty, #countproductwishlist:empty{ display:none; }
+
+/* small animation for when product count changes */
+.cart-badge-animation{ animation: pulse .28s ease-in-out; }
+@keyframes pulse{ 0%{ transform:scale(1) } 50%{ transform:scale(1.2) } 100%{ transform:scale(1) } }
+
+/* Featurette spacing adjustments (mobile-first). The markup uses .featurette and .featurette-image */
+.featurette{ margin-top:1.25rem; margin-bottom:1.25rem; }
+.featurette-heading{ font-size:1.25rem; }
+.featurette-image{ width:100%; height:auto; }
+
+/* Cards: ensure consistent card image behaviour */
+.card-img-top{ object-fit:cover; height:200px; }
+
+/* Responsive adjustments */
+@media(min-width:576px){
+    h1{ font-size:1.75rem; }
+    .card-img-top{ height:220px; }
+}
+@media(min-width:768px){
+    h1{ font-size:2rem; }
+    .card-img-top{ height:260px; }
+}
+@media(min-width:992px){
+    .site-container{ padding:0 2rem; }
+    .card-img-top{ height:300px; }
+}
+
+/* Minor utility tweaks used across components */
+.featurette-divider{ border-top:1px solid rgba(0,0,0,.075); margin:1rem 0; }
+
+/* Ensure forms in footer and header shrink nicely */
+form .form-control{ max-width:100%; }
+
+/* Navbar brand color: change eCommerce from blue to dark gray */
+.navbar-brand, .navbar-brand .h5, .navbar-brand .fw-bold{ color: #343a40 !important; }
+
+/* Avatar button small tweak */
+.btn.rounded-circle i{ font-size:1rem; }

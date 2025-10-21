@@ -1,0 +1,52 @@
+[
+    {
+        "usuarioid": 0,
+        "nombre": "",
+        "username": "",
+        "password": "123456",
+        "email": "",
+        "direccion": "",
+        "telefono": "",
+        "tipo": "nouser"
+    },
+    {
+        "usuarioid": 1,
+        "nombre": "Nahuel Ezequiel Correa",
+        "username": "eladmin",
+        "password": "123456",
+        "email": "nahueladmin@gmail.com",
+        "direccion": "Salala 444 CABA",
+        "telefono": "11565432100",
+        "tipo": "admin"
+    },
+    {
+        "usuarioid": 2,
+        "nombre": "Nahuel Ezequiel Correa",
+        "username": "eluser",
+        "password": "123456",
+        "email": "nahueluser@gmail.com",
+        "direccion": "Salala 444 CABA",
+        "telefono": "11565432100",
+        "tipo": "user"
+    },
+    {
+        "usuarioid": 3,
+        "nombre": "Jhon E. Doe",
+        "username": "joedoe",
+        "password": "123456",
+        "email": "joedoe@gmail.com",
+        "direccion": "Salala 444 CABA",
+        "telefono": "11565432100",
+        "tipo": "user"
+    },
+    {
+        "usuarioid": 4,
+        "nombre": "Jane V. Doe",
+        "username": "janedoe",
+        "password": "123456",
+        "email": "janedoe@gmail.com",
+        "direccion": "Salala 444 CABA",
+        "telefono": "11565432100",
+        "tipo": "user"
+    }
+]
